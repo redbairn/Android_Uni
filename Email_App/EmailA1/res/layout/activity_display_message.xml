@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content" >
+   
+     
+	    <LinearLayout 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+		   
+
+			   <TextView
+			   android:id="@+id/txtReadWord"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:layout_marginTop="30dp"
+			   android:layout_marginLeft="10dp"
+			   android:text="@string/sender"
+			   android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			   <TextView
+			   android:id="@+id/txtReadWord2"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:layout_marginTop="30dp"
+			   android:layout_marginLeft="10dp"
+			   android:text="@string/recipient" />
+			
+			    <TextView
+			    android:id="@+id/txtReadWord3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="30dp"
+			    android:layout_marginLeft="10dp"
+			    android:text="@string/carbon_copy" />
+			
+			    <TextView
+			    android:id="@+id/txtReadWord4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="30dp"
+			    android:layout_marginLeft="10dp"
+			    android:text="@string/Topic_of_email" />
+			
+			    <TextView
+			    android:id="@+id/txtReadWord5"
+			    android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+				android:layout_marginBottom="50dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+			    android:layout_marginTop="20dp" />
+			
+			    <Button
+			        android:id="@+id/returnBtn"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="15dp"
+			        android:layout_marginLeft="10dp"
+			        android:text="@string/return_to" 
+			        android:onClick="returnMain" />
+			
+		
+	</LinearLayout>
+</ScrollView>
+

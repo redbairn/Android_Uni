@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="chld"
+        android:title="Child Leap Card?" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="schld"
+        android:title="School Child?" />
+     <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="irish"
+        android:title="App in Irish?" />
+     <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="notify"
+        android:title="Notifications?"
+        android:summary="Get notified when balance is too low" />
+   
+
+</PreferenceScreen>

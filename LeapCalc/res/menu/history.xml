@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+        <item
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/back"/>
+        
+         <item
+        android:id="@+id/CHistory"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/chistory"/>
+         
+         <item
+        android:id="@+id/Gback"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Gback"/>
+        
+         <item
+        android:id="@+id/GCHistory"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Gchistory"/>
+</menu>

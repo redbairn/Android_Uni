@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fruity World</string>
+    <string name="action_settings">Settings</string>
+    <string name="apple_string">Apple</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="cream">#FFFDD0</color>
+
+    <string name="title_activity_apple">Apple</string>
+    <string name="hello_apple">Apple</string>
+    <string name="banana_string">Banana</string>
+    <string name="grape_string">Grapes</string>
+    <string name="my_fav">My Favourite Fruit</string>
+    <string name="title_activity_banana">Banana</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_grapes">Grapes</string>
+    <string name="hello_banana">Banana</string>
+    <string name="hello_grapes">Grapes</string>
+    <color name="red_apple">#d40400</color>
+    <color name="yellow_banana">#FFE135</color>
+    <color name="green_grape">#dfe572</color>
+
+</resources>

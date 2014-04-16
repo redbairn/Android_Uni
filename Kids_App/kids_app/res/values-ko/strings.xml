@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">미친 세상</string>
+    <string name="action_settings">설정</string>
+    <string name="apple_string">사과</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="cream">#FFFDD0</color>
+
+    <string name="title_activity_apple">사과</string>
+    <string name="hello_apple">사과</string>
+    <string name="banana_string">바나나</string>
+    <string name="grape_string">포도</string>
+    <string name="my_fav">나의 마음에 드는 과일</string>
+    <string name="title_activity_banana">바나나</string>
+    <string name="title_activity_grapes">포도</string>
+    <string name="hello_banana">바나나</string>
+    <string name="hello_grapes">포도</string>
+
+</resources>

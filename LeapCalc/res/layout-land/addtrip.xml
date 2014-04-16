@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgimage"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/txtJType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+           
+            android:text="@string/jType"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/bGreen"
+            android:textSize="@dimen/balanceText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="100"
+            android:orientation="horizontal" >
+
+            <!-- Nested weights are apparently bad for performance but after doing some research, the change in performance is negligible -->
+            
+            <Button
+                android:id="@+id/btnAddBus"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:textSize="@dimen/buttonText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="80"
+                android:background="@drawable/button"
+                android:text="@string/bus"
+                android:textColor="@color/bGreen" />
+
+            <Button
+                android:id="@+id/btnAddExpBus"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:textSize="@dimen/buttonText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="80"
+                android:background="@drawable/button"
+                android:text="@string/expbus"
+                android:textColor="@color/bGreen" />
+
+            <Button
+                android:id="@+id/btnAddLuasR"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:textSize="@dimen/buttonText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="80"
+                android:background="@drawable/button"
+                android:text="@string/luasR"
+                android:textColor="@color/bGreen" />
+
+            <Button
+                android:id="@+id/btnAddLuasG"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:textSize="@dimen/buttonText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="80"
+                android:background="@drawable/button"
+                android:text="@string/luasG"
+                android:textColor="@color/bGreen" />
+
+            <Button
+                android:id="@+id/btnAddTrain"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:textSize="@dimen/buttonText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="80"
+                android:background="@drawable/button"
+                android:text="@string/train"
+                android:textColor="@color/bGreen" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
